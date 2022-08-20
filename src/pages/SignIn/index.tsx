@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { GoogleLogo } from "phosphor-react";
 
 import { signInWithPopup, GoogleAuthProvider, User } from "firebase/auth";
-import { auth } from '../../services/firebase';
+import { auth } from '../services/firebase';
 
 import './styles.scss';
 
