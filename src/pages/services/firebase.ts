@@ -1,14 +1,15 @@
-import { initializeApp } from "firebase/app";
-import { getAuth, GoogleAuthProvider } from "firebase/auth";
+import { initializeApp } from 'firebase/app';
+import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCHLwFEH8vOn3e1isXHzte65_oq29J8dqY",
-  authDomain: "signin-9acc0.firebaseapp.com",
-  projectId: "signin-9acc0",
-  storageBucket: "signin-9acc0.appspot.com",
-  messagingSenderId: "1022492160441",
-  appId: "1:1022492160441:web:2987112988f0546c2c4668"
+  apiKey: 'AIzaSyAZ7UoxvBs-bYmGzhCmaTVbDK63HE6-ClU',
+  authDomain: 'auth-yt-280db.firebaseapp.com',
+  projectId: 'auth-yt-280db',
+  storageBucket: 'auth-yt-280db.appspot.com',
+  messagingSenderId: '1000968945412',
+  appId: '1:1000968945412:web:8fe82871dcb4263f30da51'
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
